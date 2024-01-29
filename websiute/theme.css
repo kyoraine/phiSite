@@ -1,0 +1,143 @@
+
+
+body {
+  background-image: url(images/sparkles.gif);
+  background-repeat: repeat;
+  font-family: baskerville, serif;
+  font-size: 22px;
+  color: white;
+}
+
+h1 {
+  color: whitesmoke;
+  font-size: 22px;
+}
+
+h3 {
+  color: whitesmoke;
+  font-size: 18px;
+}
+
+p {
+  font-family: baskerville, serif;
+  color: white;
+  font-size: 16px;
+}
+
+ul {
+  font-size: 16px;
+}
+
+.main-container {
+  overflow: hidden;
+  max-width: 75%;
+  margin: 0 auto;
+}
+
+.sub-container {
+  overflow: hidden;
+  max-width: 50%;
+  margin: 0 auto;
+}
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.left-div {
+  border: 1px dashed silver;
+  /*border-image: url(images/chainborder.png) repeat;
+  border-image-repeat: repeat;*/
+  float: left;
+  width: 70%;
+  padding: 10px;
+  background-color: rgb(0, 0, 0);
+}
+
+.right-div {
+  padding-left: 10px;
+  float: right;
+  width: 25%;
+}
+
+.badge-container {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  max-width: 800px;
+}
+.badge-container img {
+  height: 31px;
+  width: 88px;
+  object-fit: cover;
+  margin: 5px;
+}
+
+.pink-h1 {
+  color: rgb(223, 92, 135);
+  size: 22px;
+  text-decoration-line: underline;
+}
+
+.red-underline-h1 {
+  size: 22px;
+  color: rgb(158, 0, 0);
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: rgb(158, 0, 0);
+}
+
+.star-list {
+  list-style: none;
+}
+
+.star-list li:before{
+  content: '\2726';
+  margin-right: 8px; 
+  margin-left: -20px;
+
+}
+
+.x-list {
+  list-style: none;
+}
+
+.x-list li:before{
+  content: '\2716';
+  margin-left: -20px;
+  margin-right: 8px; 
+}
+
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+}
+
+.navbar li {
+  list-style-type: none;
+}
+
+.navbar li a {
+  display: block;
+  background-color: rgb(27, 1, 27);
+  color: purple;
+  padding: 8px 0px 16px 100px;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  background-color: #4c4886;
+  color: white;
+}
+
+.navbar li:before {
+  position: absolute;
+  color: rgb(247, 245, 164);
+  content: 'ᯓ★';
+}
